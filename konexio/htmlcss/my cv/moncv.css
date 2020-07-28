@@ -1,0 +1,124 @@
+@font-face 
+{
+    font-family: 'poppins';
+    src: url('../fonts/poppins-regular.ttf') format('truetype')/* Safari, Android, iOS */
+}
+  
+body
+{
+    font-family: 'poppins', fallback, sans-serif;
+}
+
+nav
+{
+  background-color: #0457ba; 
+  border: solid; 
+  color: white;
+  display : flex;
+  padding: 1em auto;
+  color: white;
+}
+
+.zero,::after
+{
+    word-spacing: 0em;
+    content:""; clear: both;
+    margin-left: 3em;
+    position: relative;
+    right:0px ;
+    bottom: -20px;
+    color: white;
+}
+
+nav a
+{
+    color: white;
+    text-decoration: none;
+}
+
+header.haut
+{
+    text-align: center;
+    padding: 20px;
+}
+h2
+{
+    color: blue;
+    margin-left: -4em ;
+}
+
+.photo
+{
+    border-radius: 150px;
+    margin-top: -60px;
+    margin-right: -20em;
+    box-sizing: border-box;
+}
+
+section
+{
+    text-indent: 350px;
+    text-align: justify;
+    padding: 40px;
+}
+
+.one,.three
+{
+    background-color:#0457ba;
+    color:white;
+    border: solid;
+}
+
+#deu,#troi
+{
+color:blue;
+}
+
+footer
+{
+background-color: #0457ba;
+}
+
+footer a,i
+{
+color: white;
+}
+
+footer ul
+{
+    list-style-type: none;
+    align-items: space-between;
+}
+
+.logo
+{
+    position: relative;
+    right: -1em;
+    bottom: -5em;
+}
+.icon
+{
+    text-indent: 12em;
+    position: relative;
+    top: -5.6em;
+}
+
+footer i
+{
+    float: center ;
+    position: relative;
+    right: -3em ;
+}
+
+.date
+{
+    float: right;
+    position: Relative;
+    right: 100px ;
+    top: -40px;
+}
+
+.liste
+{
+    line-height:2;
+}
